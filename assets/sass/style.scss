@@ -100,17 +100,6 @@ header .content-wrapper {
   margin: 1rem 0 1.5rem 0;
 }
 
-.section-about .content-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.section-about-media {
-  width: 550px;
-  height: 500px;
-  margin-left: 1.5rem;
-}
-
 section,
 footer {
   margin-top: 4rem;
@@ -129,4 +118,62 @@ footer {
 
 .service .service-item img {
   width: 360px;
+}
+
+.section {
+  &-about {
+    .content-wrapper {
+      display: flex;
+      align-items: center;
+    }
+    &-content {
+      p {
+        margin-top: 0.5rem;
+      }
+
+      button {
+        margin-top: 1.5rem;
+      }
+    }
+    &-media {
+      width: 550px;
+      height: 500px;
+      margin-left: 1.5rem;
+    }
+  }
+
+  &-why {
+    .content-wrapper {
+      display: flex;
+      align-items: center;
+    }
+    &-content {
+      p {
+        margin-top: 0.5rem;
+      }
+
+      button {
+        margin-top: 1.5rem;
+      }
+    }
+    &-media {
+      width: 550px;
+      height: 500px;
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+footer {
+  background-color: #2044a8;
+  padding: 2.5rem 0;
+  color: white;
+
+  .footer {
+    &-copyright {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+    }
+  }
 }

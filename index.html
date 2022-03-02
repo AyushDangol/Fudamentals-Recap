@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Test Website</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Sass Test</title>
   </head>
   <body>
     <header>
@@ -82,7 +82,8 @@
 
       <!-- Section About -->
       <section class="section-about">
-        <div class="content-wrapper">
+        <div class="section-about-content"></div>
+        <div class="content-wrapper btn-secondary">
           <div class="section-about-content">
             <h2 class="heading-01">About Us</h2>
             <p>
@@ -204,21 +205,23 @@
     </main>
 
     <footer>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-      <div class="footer-copyright">
-        <h3>© All rights reserved – Infodevelopers Pvt. Ltd.</h3>
-        <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Term & Conditions</a></li>
-        </ul>
+      <div class="content-wrapper">
+        <nav>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="footer-copyright">
+          <h3>© All rights reserved – Infodevelopers Pvt. Ltd.</h3>
+          <ul class="list">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Term & Conditions</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
