@@ -1,0 +1,24 @@
+.heading {
+  @include headings;
+}
+
+.heading-main {
+  @include headings(40px, $primary, 400, 130%);
+}
+
+.title {
+  @include headings(18px, $secondary, 500);
+}
+
+@each $label, $value in $font-weight {
+  .text-#{$label} {
+    font-weight: #{$value};
+  }
+}
+
+.card {
+  h1 {
+    @extend .heading-main;
+    font-size: 32px;
+  }
+}

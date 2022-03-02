@@ -1,12 +1,12 @@
 {
-  "name": "sass-setup",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass assets/sass/style.scss assets/css/style.css -w"
+    "build": "node-sass ./assets/sass/main.scss ./assets/css/style.css -w"
   },
-  "author": "Ayush",
+  "author": "Ayush Dangol",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.1"

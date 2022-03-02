@@ -1,0 +1,12 @@
+@mixin headings(
+  $fontsize: 32px,
+  $color: #232323,
+  $weight: 400,
+  $lineheight: 100%
+) {
+  font-size: $fontsize;
+  color: $color;
+  font-weight: $weight;
+  font-family: poppins;
+  line-height: $lineheight;
+}
